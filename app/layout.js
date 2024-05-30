@@ -1,5 +1,8 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Header from '@/app/ui/header'
+import Footer from '@/app/ui/footer'
+import {ThemeProvider} from '@/app/ui/material-ui'
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -9,9 +12,15 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-  return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
-    </html>
-  );
+	return (
+		<ThemeProvider>
+			<html lang="en">
+				<body className={inter.className + " " + "bg-gradient-to-br from-cyan-100 via-white to-pink-100"}>
+					<Header></Header>
+					{children}
+					<Footer></Footer>
+				</body>
+			</html>
+		</ThemeProvider>
+	);
 }
