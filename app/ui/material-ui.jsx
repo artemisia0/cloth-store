@@ -1,6 +1,6 @@
 'use client'
 
-import {Button, ThemeProvider, Input} from '@material-tailwind/react'
+import {Navbar, ThemeProvider, Input, Menu, MenuHandler, MenuList, MenuItem, Button} from '@material-tailwind/react'
 
-export {Button, ThemeProvider, Input}
+export {Navbar, Input, Menu, ThemeProvider, MenuHandler, MenuList, MenuItem, Button}
 
