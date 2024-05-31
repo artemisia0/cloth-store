@@ -9,7 +9,7 @@ export default function SeeCloth() {
 			<p className="m-3 text-xl font-bold bg-gradient-to-r from-red-700 via-indigo-700 to-lime-700 bg-clip-text text-transparent drop-shadow">
 				Go on and see what we have!
 			</p>
-			<Link href="/seecloth" className="m-3">
+			<Link href="/products" className="m-3">
 				<Button variant="outlined">See Cloth</Button>
 			</Link>
 		</div>

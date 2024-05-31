@@ -5,7 +5,7 @@ import NavLink from '@/app/ui/navlink'
 export default function Header() {
 	return (
 		<header>
-			<nav className="bg-gray-300 drop-shadow-xl flex flex-row justify-evenly items-center p-2">
+			<nav className="bg-gray-300 drop-shadow flex flex-row justify-evenly items-center p-2">
 				<NavLink href="/">
 					<span className="text-lg">
 						Cloth Store

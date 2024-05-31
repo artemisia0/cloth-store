@@ -5,7 +5,7 @@ import {SocialIcon} from 'react-social-icons'
 
 export default function Footer() {
 	return (
-		<footer className="bg-gray-300 flex flex-col items-center p-4">
+		<footer className="drop-shadow bg-gray-300 flex flex-col items-center p-4">
 			<div className="flex flex-row justify-evenly w-64">
 				<SocialIcon url="https://github.com/artemisia0" style={{width: 30, height: 30}}></SocialIcon>
 				<SocialIcon url="https://tiktok.com" style={{width: 30, height: 30}}></SocialIcon>

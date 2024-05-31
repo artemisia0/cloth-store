@@ -15,10 +15,10 @@ export default function NavLink(props) {
 	props.className = props.className | " "
 
 	if (props.href === path) {
-		props.className += " font-bold"
+		props.className += " font-light underline"
 	}
 
-	props.className += " hover:font-black drop-shadow"
+	props.className += " hover:font-light drop-shadow"
 
 	return (
 		<Link {...props}>
